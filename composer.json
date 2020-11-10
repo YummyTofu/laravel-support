@@ -40,7 +40,7 @@
     ],
     "require": {
         "php": "^7.4.0",
-        "felixkiss/uniquewith-validator": "dev-patch-1",
+        "felixkiss/uniquewith-validator": "dev-master",
         "illuminate/auth": "^8.0.0",
         "illuminate/bus": "^8.0.0",
         "illuminate/contracts": "^8.0.0",
@@ -86,7 +86,7 @@
     "repositories": [
             {
                 "type": "vcs",
-                "url": "https://github.com/lloricode/uniquewith-validator"
+                "url": "https://github.com/YummyTofu/uniquewith-validator.git"
             }
     ],
     "minimum-stability": "dev",
