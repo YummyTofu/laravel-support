@@ -40,7 +40,7 @@
     ],
     "require": {
         "php": "^7.4.0",
-        "felixkiss/uniquewith-validator": "^3.4.0",
+        "felixkiss/uniquewith-validator": "dev-patch-1",
         "illuminate/auth": "^8.0.0",
         "illuminate/bus": "^8.0.0",
         "illuminate/contracts": "^8.0.0",
@@ -83,6 +83,12 @@
             ]
         }
     },
+    "repositories": [
+            {
+                "type": "vcs",
+                "url": "https://github.com/lloricode/uniquewith-validator"
+            }
+    ],
     "minimum-stability": "dev",
     "prefer-stable": true
 }
